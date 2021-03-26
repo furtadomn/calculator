@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="src/css/calculator.css">
+    <title>Calculator</title>
+
+</head>
+<body>
+
+    <div class="calculator">
+        <div class="display">
+            <input type="text" name="display" class="display" placeholder="0" maxlength="9">
+        </div>
+        <div class="buttons-group">
+            <button class="buttons grey clean C" onclick="clean()">C</button>
+            <button class="buttons grey">&PlusMinus;</button>
+            <button class="buttons grey percent">%</button>
+            <button class="buttons orange">&divide;</button>
+            <button class="buttons" onclick="button(7)">7</button>
+            <button class="buttons" onclick="button(8)">8</button>
+            <button class="buttons" onclick="button(9)">9</button>
+            <button class="buttons orange">&times;</button>
+            <button class="buttons" onclick="button(4)">4</button>
+            <button class="buttons" onclick="button(5)">5</button>
+            <button class="buttons" onclick="button(6)">6</button>
+            <button class="buttons orange">&minus;</button>
+            <button class="buttons" onclick="button(1)">1</button>
+            <button class="buttons" onclick="button(2)">2</button>
+            <button class="buttons" onclick="button(3)">3</button>
+            <button class="buttons orange">&plus;</button>
+            <button class="buttons zero" onclick="button(0)">0</button>
+            <button class="buttons">,</button>
+            <button class="buttons orange equals">&equals;</button>
+        </div>
+    </div>
+    
+
+    <script type="text/javascript" src="src/javascript/calculator.js"></script>
+</body>
+</html>
